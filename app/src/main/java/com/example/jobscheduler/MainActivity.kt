@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.P)
     fun scheduleJob(view: View) {
 
+
+        //making changes to push in git
+        //and then to verify in jenkins
         val componentName : ComponentName= ComponentName(this,ExampleJobService::class.java)
         val info : JobInfo =JobInfo.Builder(123,componentName)
             //.setRequiresCharging(true)
