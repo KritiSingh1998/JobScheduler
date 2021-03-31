@@ -29,6 +29,13 @@ class MainActivity : AppCompatActivity() {
         //and then to verify in jenkins
         //added more changes
 
+        //making changes to push in git
+        //and then to verify in jenkins
+        //added more changes
+        //making changes to push in git
+        //and then to verify in jenkins
+        //added more changes
+
         val componentName : ComponentName= ComponentName(this,ExampleJobService::class.java)
         val info : JobInfo =JobInfo.Builder(123,componentName)
             //.setRequiresCharging(true)
