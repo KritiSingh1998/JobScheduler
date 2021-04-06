@@ -42,6 +42,16 @@ class MainActivity : AppCompatActivity() {
         //making changes at 9:04
         //making changes at 9:04
 
+
+
+        //making changes at 9:11
+        //making changes at 9:11
+        //making changes at 9:11
+
+
+        //making changes at 3:10
+
+
         val componentName : ComponentName= ComponentName(this,ExampleJobService::class.java)
         val info : JobInfo =JobInfo.Builder(123,componentName)
             //.setRequiresCharging(true)
